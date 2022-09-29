@@ -5,6 +5,7 @@
 </p>
 
 ## List of animations
+This list conatain the animations which are present in the project:
 |Name|Description|
 |-|-|
 |Bounce|Bouncy effect of the object to which it is applied|

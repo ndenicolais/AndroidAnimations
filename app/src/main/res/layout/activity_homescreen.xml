@@ -19,7 +19,7 @@
         android:textSize="70sp"
         android:textStyle="bold"
         android:textColor="#8D353B"
-        android:shadowColor="@color/white"
+        android:shadowColor="#DBA457"
         android:shadowRadius="10"
         android:shadowDy="15"
         app:autoSizeTextType="uniform"
@@ -35,8 +35,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         app:srcCompat="@drawable/dn21_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

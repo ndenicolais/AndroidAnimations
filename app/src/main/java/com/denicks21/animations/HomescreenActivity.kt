@@ -14,6 +14,9 @@ class HomescreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_homescreen)
 
+        // Hide action bar
+        supportActionBar?.hide()
+
         val backgroundText: TextView = findViewById(R.id.textView)
         val textAnimation = AnimationUtils.loadAnimation(this, R.anim.fade_in)
         backgroundText.startAnimation(textAnimation)

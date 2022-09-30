@@ -1,22 +1,23 @@
-<ScrollView
+<androidx.core.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFECB3">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp">
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingBottom="20dp">
 
         <Button
             android:id="@+id/btnBounce"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:backgroundTint="#8D353B"
             android:text="Bounce" />
 
@@ -24,59 +25,48 @@
             android:id="@+id/txt_bounce"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/txt_fade_out"
-            android:layout_alignTop="@id/btnBounce"
-            android:layout_alignBottom="@+id/btnBounce"
-            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Bounce"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnFadeIn"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnBounce"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Fade In" />
 
         <TextView
             android:id="@+id/txt_fade_in"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnFadeIn"
-            android:layout_alignBottom="@+id/btnFadeIn"
-            android:layout_alignStart="@+id/txt_fade_out"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Fade In"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnFadeOut"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnFadeIn"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Fade Out" />
 
         <TextView
             android:id="@+id/txt_fade_out"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnFadeOut"
-            android:layout_alignBottom="@+id/btnFadeOut"
-            android:layout_alignStart="@+id/btnFadeOut"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Fade Out"
             android:textColor="#8D353B"
             android:textSize="20sp" />
@@ -85,23 +75,18 @@
             android:id="@+id/btnFlash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnFadeOut"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
             android:backgroundTint="#8D353B"
             android:text="Flash" />
 
         <TextView
             android:id="@+id/txt_flash"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnFlash"
-            android:layout_alignStart="@+id/btnFlash"
-            android:layout_alignBottom="@+id/btnFlash"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Flash"
             android:textColor="#8D353B"
             android:textSize="20sp" />
@@ -110,200 +95,160 @@
             android:id="@+id/btnRotate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnFlash"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
             android:backgroundTint="#8D353B"
             android:text="Rotate" />
 
         <TextView
             android:id="@+id/txt_rotate"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnRotate"
-            android:layout_alignBottom="@+id/btnRotate"
-            android:layout_alignStart="@+id/btnRotate"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Rotate"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnSequence"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnRotate"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Sequence" />
 
         <TextView
             android:id="@+id/txt_sequence"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnSequence"
-            android:layout_alignBottom="@+id/btnSequence"
-            android:layout_alignStart="@+id/btnSequence"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Sequence"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnShift"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnSequence"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Shift" />
 
         <TextView
             android:id="@+id/txt_shift"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnShift"
-            android:layout_alignBottom="@+id/btnShift"
-            android:layout_alignStart="@+id/btnShift"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Shift"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnSwipeDown"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnShift"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Swipe Down" />
 
         <TextView
             android:id="@+id/txt_swipe_down"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnSwipeDown"
-            android:layout_alignBottom="@+id/btnSwipeDown"
-            android:layout_alignStart="@+id/btnSwipeDown"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Swipe Down"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnSwipeUp"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnSwipeDown"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Swipe Up" />
 
         <TextView
             android:id="@+id/txt_swipe_up"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnSwipeUp"
-            android:layout_alignBottom="@+id/btnSwipeUp"
-            android:layout_alignStart="@+id/btnSwipeUp"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Swipe Up"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnTurn"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnSwipeUp"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Turn" />
 
         <TextView
             android:id="@+id/txt_turn"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnTurn"
-            android:layout_alignBottom="@+id/btnTurn"
-            android:layout_alignStart="@+id/btnTurn"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Turn"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnZoomIn"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnTurn"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Zoom In" />
 
         <TextView
             android:id="@+id/txt_zoom_in"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnZoomIn"
-            android:layout_alignBottom="@+id/btnZoomIn"
-            android:layout_alignStart="@+id/btnZoomIn"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Zoom In"
             android:textColor="#8D353B"
             android:textSize="20sp" />
 
         <Button
             android:id="@+id/btnZoomOut"
-            android:backgroundTint="#8D353B"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:layout_below="@id/btnZoomIn"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginBottom="5dp"
+            android:backgroundTint="#8D353B"
             android:text="Zoom Out" />
 
         <TextView
             android:id="@+id/txt_zoom_out"
-            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@id/btnZoomOut"
-            android:layout_alignBottom="@+id/btnZoomOut"
-            android:layout_alignStart="@+id/btnZoomOut"
-            android:layout_marginStart="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
             android:text="Zoom Out"
             android:textColor="#8D353B"
             android:textSize="20sp" />
-    </RelativeLayout>
-</ScrollView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

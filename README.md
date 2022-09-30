@@ -1,8 +1,6 @@
 # Android Animations
-## Preview
-<p align="center">
-<img src="AndroidAnimations.gif" width="300" height="600"/>
-</p>
+## Screen preview
+<img height="500em" src="AndroidAnimations.gif" title="Animations's screen preview">
 
 ## List of animations
 This list conatain the animations which are present in the project:

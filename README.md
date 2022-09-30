@@ -1,8 +1,10 @@
 # Android Animations
 ## Screen preview
+<p float="left">
 <img height="500em" src="AnimationsPreview0.png" title="Animations's screen preview">
 <img height="500em" src="AnimationsPreview1.png" title="Animations's screen preview">
 <img height="500em" src="AnimationsPreview2.png" title="Animations's screen preview">
+</p>
 
 ## List of animations
 This list conatain the animations which are present in the project:

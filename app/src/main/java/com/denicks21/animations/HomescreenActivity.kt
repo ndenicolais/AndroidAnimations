@@ -17,14 +17,17 @@ class HomescreenActivity : AppCompatActivity() {
         // Hide action bar
         supportActionBar?.hide()
 
+        // Text view
         val backgroundText: TextView = findViewById(R.id.textView)
         val textAnimation = AnimationUtils.loadAnimation(this, R.anim.fade_in)
         backgroundText.startAnimation(textAnimation)
 
+        // Image view
         val backgroundImage: ImageView = findViewById(R.id.imageView)
         val imageAnimation = AnimationUtils.loadAnimation(this, R.anim.fade_in)
         backgroundImage.startAnimation(imageAnimation)
 
+        // Splashscreen delay
         Handler(Looper.getMainLooper()).postDelayed({
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

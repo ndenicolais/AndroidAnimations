@@ -22,6 +22,9 @@ This list conatain the animations which are present in the project:
 |Turn|Turning effect of the object to which it is applied|
 |Zoom in|Zoom increase effect of the object to which it is applied|
 |Zoom out|Zoom decrease effect of the object to which it is applied|
+
+All animation .xml files are contained in the path: ```\Animations\app\src\main\res```
+
 ## List of attribute
 This list conatain some attributes which which i am using in the project:
 |XML Attributes|Description|

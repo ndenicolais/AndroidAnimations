@@ -1,9 +1,9 @@
 # Android Animations
 ## Screen preview
 <p float="left">
-<img height="500em" src="AnimationsPreview0.png" title="Animations's screen preview">
-<img height="500em" src="AnimationsPreview1.png" title="Animations's screen preview">
-<img height="500em" src="AnimationsPreview2.png" title="Animations's screen preview">
+<img height="500em" src="Animations0.png" title="Animations's screen preview">
+<img height="500em" src="Animations1.png" title="Animations's screen preview">
+<img height="500em" src="Animations2.png" title="Animations's screen preview">
 </p>
 
 ## List of animations

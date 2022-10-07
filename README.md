@@ -5,9 +5,9 @@ Each animation is linked to a button and every time the button is clicked the an
 
 ## Screen preview
 <p float="left">
-<img height="500em" src="Animations0.png" title="Animations's screen preview">
-<img height="500em" src="Animations1.png" title="Animations's screen preview">
-<img height="500em" src="Animations2.png" title="Animations's screen preview">
+<img height="500em" src="AnimationsScreen0.png" title="Animations's screen preview">
+<img height="500em" src="AnimationsScreen1.png" title="Animations's screen preview">
+<img height="500em" src="AnimationsScreen2.png" title="Animations's screen preview">
 </p>
 
 ## Animations

@@ -13,7 +13,7 @@ Each animation is linked to a button and every time the button is clicked the an
 ## Animations
 All animation .xml files are contained in the resource directory under the res folder.
 
-The path is: ```\Animations\app\src\main\res```
+The path is: ```\Animations\app\src\main\res\anim```
 
 This list conatain the animations which are present in the project:
 |Name|Description|

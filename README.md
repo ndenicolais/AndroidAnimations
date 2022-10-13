@@ -1,4 +1,7 @@
 # Android Animations
+> <b>Author: Nicola De Nicolais</b>
+
+
 Animations in Android is the process of creating motion and shape change. Animations can be performed through XML or code. In this android animation tutorial we’ll go with XML codes for adding animations into our application.
 
 Each animation is linked to a button and every time the button is clicked the animation starts.

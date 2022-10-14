@@ -1,19 +1,22 @@
 # Android Animations
+> <b>Author: Nicola De Nicolais</b>
+
+
 Animations in Android is the process of creating motion and shape change. Animations can be performed through XML or code. In this android animation tutorial we’ll go with XML codes for adding animations into our application.
 
 Each animation is linked to a button and every time the button is clicked the animation starts.
 
 ## Screen preview
 <p float="left">
-<img height="500em" src="Animations0.png" title="Animations's screen preview">
-<img height="500em" src="Animations1.png" title="Animations's screen preview">
-<img height="500em" src="Animations2.png" title="Animations's screen preview">
+<img height="500em" src="AnimationsScreen0.png" title="Animations's screen preview">
+<img height="500em" src="AnimationsScreen1.png" title="Animations's screen preview">
+<img height="500em" src="AnimationsScreen2.png" title="Animations's screen preview">
 </p>
 
 ## Animations
 All animation .xml files are contained in the resource directory under the res folder.
 
-The path is: ```\Animations\app\src\main\res```
+The path is: ```\Animations\app\src\main\res\anim```
 
 This list conatain the animations which are present in the project:
 |Name|Description|

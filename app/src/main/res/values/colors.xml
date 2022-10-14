@@ -2,6 +2,7 @@
 <resources>
     <color name="primary">#8D353B</color>
     <color name="secondary">#FFECB3</color>
+    <color name="tertiary">#DBA457</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_color">#FFECB3</color>

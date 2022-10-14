@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val btnBounce: Button = findViewById(R.id.btnBounce)
         btnBounce.setOnClickListener {
             val txtFadeIn: TextView = findViewById(R.id.txt_bounce)
-            txtFadeIn.setVisibility(View.VISIBLE)
+            txtFadeIn.visibility = View.VISIBLE
             txtFadeIn.startAnimation(animBounce)
         }
 
@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val btnFadeIn: Button = findViewById(R.id.btnFadeIn)
         btnFadeIn.setOnClickListener {
             val txtFadeIn: TextView = findViewById(R.id.txt_fade_in)
-            txtFadeIn.setVisibility(View.VISIBLE)
+            txtFadeIn.visibility = View.VISIBLE
             txtFadeIn.startAnimation(animFadeIn)
         }
 
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         val btnFadeOut: Button = findViewById(R.id.btnFadeOut)
         btnFadeOut.setOnClickListener {
             val txtFadeOut: TextView = findViewById(R.id.txt_fade_out)
-            txtFadeOut.setVisibility(View.VISIBLE)
+            txtFadeOut.visibility = View.VISIBLE
             txtFadeOut.startAnimation(animFadeOut)
         }
 
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         val btnFlash: Button = findViewById(R.id.btnFlash)
         btnFlash.setOnClickListener {
             val txtFlash: TextView = findViewById(R.id.txt_flash)
-            txtFlash.setVisibility(View.VISIBLE)
+            txtFlash.visibility = View.VISIBLE
             txtFlash.startAnimation(animFlash)
         }
 
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         val btnRotate: Button = findViewById(R.id.btnRotate)
         btnRotate.setOnClickListener {
             val txtRotate: TextView = findViewById(R.id.txt_rotate)
-            txtRotate.setVisibility(View.VISIBLE)
+            txtRotate.visibility = View.VISIBLE
             txtRotate.startAnimation(animRotate)
         }
 
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
         val btnSequence: Button = findViewById(R.id.btnSequence)
         btnSequence.setOnClickListener {
             val txtSequence: TextView = findViewById(R.id.txt_sequence)
-            txtSequence.setVisibility(View.VISIBLE)
+            txtSequence.visibility = View.VISIBLE
             txtSequence.startAnimation(animSequence)
         }
 
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
         val btnShift: Button = findViewById(R.id.btnShift)
         btnShift.setOnClickListener {
             val txtShift: TextView = findViewById(R.id.txt_shift)
-            txtShift.setVisibility(View.VISIBLE)
+            txtShift.visibility = View.VISIBLE
             txtShift.startAnimation(animShift)
         }
 
@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
         val btnSwipeDown: Button = findViewById(R.id.btnSwipeDown)
         btnSwipeDown.setOnClickListener {
             val txtSwipeDown: TextView = findViewById(R.id.txt_swipe_down)
-            txtSwipeDown.setVisibility(View.VISIBLE)
+            txtSwipeDown.visibility = View.VISIBLE
             txtSwipeDown.startAnimation(animSwipeDown)
         }
 
@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity() {
         val btnSwipeUp: Button = findViewById(R.id.btnSwipeUp)
         btnSwipeUp.setOnClickListener {
             val txtSwipeUp: TextView = findViewById(R.id.txt_swipe_up)
-            txtSwipeUp.setVisibility(View.VISIBLE)
+            txtSwipeUp.visibility = View.VISIBLE
             txtSwipeUp.startAnimation(animSwipeUp)
         }
 
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
         val btnTurn: Button = findViewById(R.id.btnTurn)
         btnTurn.setOnClickListener {
             val txtTurn: TextView = findViewById(R.id.txt_turn)
-            txtTurn.setVisibility(View.VISIBLE)
+            txtTurn.visibility = View.VISIBLE
             txtTurn.startAnimation(animTurn)
         }
 
@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
         val btnZoomIn: Button = findViewById(R.id.btnZoomIn)
         btnZoomIn.setOnClickListener {
             val txtZoomIn: TextView = findViewById(R.id.txt_zoom_in)
-            txtZoomIn.setVisibility(View.VISIBLE)
+            txtZoomIn.visibility = View.VISIBLE
             txtZoomIn.startAnimation(animZoomIn)
         }
 
@@ -117,7 +117,7 @@ class MainActivity : AppCompatActivity() {
         val btnZoomOut: Button = findViewById(R.id.btnZoomOut)
         btnZoomOut.setOnClickListener {
             val txtZoomOut: TextView = findViewById(R.id.txt_zoom_out)
-            txtZoomOut.setVisibility(View.VISIBLE)
+            txtZoomOut.visibility = View.VISIBLE
             txtZoomOut.startAnimation(animZoomOut)
         }
     }
